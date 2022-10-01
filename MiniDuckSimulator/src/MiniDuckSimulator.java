@@ -1,4 +1,5 @@
 import Fly.FlyRocketPowered;
+
 import Fly.FlyWithWings;
 import Quack.Quack;
 import Quack.QuackBehavior;
@@ -25,6 +26,7 @@ public class MiniDuckSimulator {
 		model.setFlyBehavior(new FlyRocketPowered());
 		
 		model.performFly();
+		
 		
 		
 
